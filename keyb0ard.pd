@@ -37,6 +37,7 @@
 #X obj 26 258 f;
 #X floatatom 26 284 5 0 0 0 - - - 0;
 #X obj 337 338 expr $i2+12*($i1-3);
+#X text 369 29 TO-DO - Add portamento - Add polyphony (12 voices \, one for each octave note? Requires remodeling of the patch \, maybe to add somewhere else?);
 #X connect 0 0 1 0;
 #X connect 0 0 29 0;
 #X connect 0 0 25 0;
@@ -70,7 +71,6 @@
 #X connect 26 0 28 0;
 #X connect 27 0 30 0;
 #X connect 28 0 29 0;
-#X connect 28 1 29 1;
 #X connect 29 0 31 0;
 #X connect 30 0 37 0;
 #X connect 30 1 37 1;
