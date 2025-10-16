@@ -32,8 +32,8 @@
 #X obj 46 206 loadbang;
 #X msg 46 232 0;
 #X msg 170 142 \$1;
-#X obj 232 366 hsl 162 19 0 127 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 16 367 scope~ 175 92 256 3 8 -1 1 0 0 0 0 30 30 30 190 190 190 160 160 160 0 empty;
+#X obj 232 366 hsl 162 19 0 1 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 16 367 scope~ 175 92 500 3 8 -1 1 0 0 0 0 30 30 30 190 190 190 160 160 160 0 empty;
 #X obj 377 73 metro 10;
 #X msg 131 236 \$1 \$2 \, \$3 \$4 \$2 \, \$5 \$6 \$6;
 #X connect 0 0 6 0;

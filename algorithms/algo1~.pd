@@ -1,6 +1,7 @@
 #N canvas 319 578 828 426 12;
 #X declare -path else;
 #X declare -path cyclone;
+#X declare -path ../;
 #X text 126 354 C;
 #X text 73 194 A;
 #X obj 152 290 +;
@@ -51,6 +52,7 @@
 #X obj 232 174 operator~;
 #X obj 222 223 operator~;
 #X obj 142 352 operator~;
+#X obj 649 59 declare -path ../;
 #X connect 2 0 34 0;
 #X connect 8 0 26 0;
 #X connect 9 0 27 0;
