@@ -23,7 +23,6 @@
 #X obj 506 218 unpack f f f f f f f f;
 #X obj 385 55 inlet~;
 #X obj 444 55 inlet~;
-#X floatatom 62 43 5 0 0 0 - - - 0;
 #X connect 1 0 3 0;
 #X connect 2 0 11 0;
 #X connect 2 1 12 0;
@@ -83,7 +82,6 @@
 #X connect 16 7 7 7;
 #X connect 17 0 2 0;
 #X connect 17 1 2 1;
-#X connect 17 1 23 0;
 #X connect 17 2 2 2;
 #X connect 17 3 2 3;
 #X connect 17 4 2 4;

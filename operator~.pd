@@ -31,7 +31,7 @@
 #X text 359 143 freq;
 #X obj 390 269 sig~ 1;
 #X obj 271 339 *~;
-#X obj 271 158 *~ 0, f 5;
+#X obj 271 158 *~, f 5;
 #X connect 0 0 29 0;
 #X connect 1 0 12 0;
 #X connect 2 0 18 0;

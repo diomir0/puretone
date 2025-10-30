@@ -40,13 +40,13 @@
 #X obj 391 357 outlet~;
 #X text 167 269 B2;
 #X text 367 269 B1;
-#X text 85 209 A;
+#X text 86 209 A;
 #X text 75 269 C;
 #X text 119 358 X;
 #X text 375 358 Y;
 #X obj 135 315 +~;
 #X text 222 8 ALGO 8;
-#X obj 101 208 operator~;
+#X obj 102 208 operator~;
 #X obj 91 268 operator~;
 #X obj 191 268 operator~;
 #X obj 390 268 operator~;
