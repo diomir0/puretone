@@ -1,4 +1,4 @@
-#N canvas 1256 772 828 392 12;
+#N canvas 1141 713 828 392 12;
 #X declare -path else;
 #X declare -path cyclone;
 #X declare -path ../;
@@ -37,14 +37,14 @@
 #X obj 609 135 scope~ 200 100 150 3 8 -1 1 0 0 0 0 30 30 30 190 190 190 160 160 160 0 empty;
 #X floatatom 609 244 5 0 0 0 - - - 12;
 #X obj 609 275 scope~ 200 100 150 3 8 -1 1 0 0 0 0 30 30 30 190 190 190 160 160 160 0 empty;
-#X obj 293 356 outlet~;
-#X obj 376 357 outlet~;
+#X obj 263 346 outlet~;
+#X obj 346 347 outlet~;
 #X text 247 159 B2;
 #X text 238 209 B1;
 #X text 235 259 A;
 #X text 225 305 C;
-#X text 277 357 X;
-#X text 360 358 Y;
+#X text 247 347 X;
+#X text 330 348 Y;
 #X obj 271 158 operator~;
 #X obj 261 208 operator~;
 #X obj 251 258 operator~;
@@ -79,6 +79,6 @@
 #X connect 33 0 34 0;
 #X connect 43 0 44 1;
 #X connect 44 0 45 1;
-#X connect 44 1 36 0;
+#X connect 44 0 36 0;
 #X connect 45 0 46 1;
-#X connect 46 1 35 0;
+#X connect 46 0 35 0;
