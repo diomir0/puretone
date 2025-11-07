@@ -1,4 +1,4 @@
-#N canvas 569 316 661 660 12;
+#N canvas -814 471 661 660 12;
 #X declare -path else;
 #X declare -path cyclone;
 #X obj 271 300 osc~;
