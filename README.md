@@ -4,8 +4,6 @@
  |  _| |_| |   | _|  | || (_) | .` | _|
  |_|  \___/|_|_|___| |_| \___/|_|\_|___|
 ```
-
-# PURETONE
 ## Elektron Digitone Emulator in Pure Data
 
 **This project is still in development**
